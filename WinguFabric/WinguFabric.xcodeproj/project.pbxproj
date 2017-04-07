@@ -10,14 +10,8 @@
 		DD4349421E978EAE008E9D8C /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4349401E978EAE008E9D8C /* Crashlytics.framework */; };
 		DD4349431E978EAE008E9D8C /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4349411E978EAE008E9D8C /* Fabric.framework */; };
 		DD4349451E9793FF008E9D8C /* WinguFabric.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4349441E9793FF008E9D8C /* WinguFabric.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC11A1B1E97A3FC001F22D2 /* FABAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC11A1A1E97A3FC001F22D2 /* FABAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC11A231E97A4B8001F22D2 /* ANSCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC11A1C1E97A4B8001F22D2 /* ANSCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC11A241E97A4B8001F22D2 /* Answers.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC11A1D1E97A4B8001F22D2 /* Answers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC11A251E97A4B8001F22D2 /* CLSAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC11A1E1E97A4B8001F22D2 /* CLSAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC11A261E97A4B8001F22D2 /* CLSLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC11A1F1E97A4B8001F22D2 /* CLSLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC11A271E97A4B8001F22D2 /* CLSReport.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC11A201E97A4B8001F22D2 /* CLSReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC11A281E97A4B8001F22D2 /* CLSStackFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC11A211E97A4B8001F22D2 /* CLSStackFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC11A291E97A4B8001F22D2 /* Crashlytics.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC11A221E97A4B8001F22D2 /* Crashlytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDC11AE91E97C66E001F22D2 /* Crashlytics.framework in Headers */ = {isa = PBXBuildFile; fileRef = DD4349401E978EAE008E9D8C /* Crashlytics.framework */; };
+		DDC11AEA1E97C66E001F22D2 /* Fabric.framework in Headers */ = {isa = PBXBuildFile; fileRef = DD4349411E978EAE008E9D8C /* Fabric.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,14 +22,6 @@
 		DD4349411E978EAE008E9D8C /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Frameworks/Fabric.framework; sourceTree = "<group>"; };
 		DD4349441E9793FF008E9D8C /* WinguFabric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinguFabric.h; path = WinguFabric/WinguFabric.h; sourceTree = SOURCE_ROOT; };
 		DD4349461E979410008E9D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WinguFabric/Info.plist; sourceTree = SOURCE_ROOT; };
-		DDC11A1A1E97A3FC001F22D2 /* FABAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = WinguFabric/FABAttributes.h; sourceTree = SOURCE_ROOT; };
-		DDC11A1C1E97A4B8001F22D2 /* ANSCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = WinguFabric/ANSCompatibility.h; sourceTree = SOURCE_ROOT; };
-		DDC11A1D1E97A4B8001F22D2 /* Answers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = WinguFabric/Answers.h; sourceTree = SOURCE_ROOT; };
-		DDC11A1E1E97A4B8001F22D2 /* CLSAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = WinguFabric/CLSAttributes.h; sourceTree = SOURCE_ROOT; };
-		DDC11A1F1E97A4B8001F22D2 /* CLSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = WinguFabric/CLSLogging.h; sourceTree = SOURCE_ROOT; };
-		DDC11A201E97A4B8001F22D2 /* CLSReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = WinguFabric/CLSReport.h; sourceTree = SOURCE_ROOT; };
-		DDC11A211E97A4B8001F22D2 /* CLSStackFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = WinguFabric/CLSStackFrame.h; sourceTree = SOURCE_ROOT; };
-		DDC11A221E97A4B8001F22D2 /* Crashlytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = WinguFabric/Crashlytics.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,14 +57,6 @@
 		DD4349321E978B63008E9D8C /* WinguFabric */ = {
 			isa = PBXGroup;
 			children = (
-				DDC11A1C1E97A4B8001F22D2 /* ANSCompatibility.h */,
-				DDC11A1D1E97A4B8001F22D2 /* Answers.h */,
-				DDC11A1E1E97A4B8001F22D2 /* CLSAttributes.h */,
-				DDC11A1F1E97A4B8001F22D2 /* CLSLogging.h */,
-				DDC11A201E97A4B8001F22D2 /* CLSReport.h */,
-				DDC11A211E97A4B8001F22D2 /* CLSStackFrame.h */,
-				DDC11A221E97A4B8001F22D2 /* Crashlytics.h */,
-				DDC11A1A1E97A3FC001F22D2 /* FABAttributes.h */,
 				DD4349441E9793FF008E9D8C /* WinguFabric.h */,
 				DD4349461E979410008E9D8C /* Info.plist */,
 			);
@@ -104,15 +82,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC11A281E97A4B8001F22D2 /* CLSStackFrame.h in Headers */,
 				DD4349451E9793FF008E9D8C /* WinguFabric.h in Headers */,
-				DDC11A291E97A4B8001F22D2 /* Crashlytics.h in Headers */,
-				DDC11A271E97A4B8001F22D2 /* CLSReport.h in Headers */,
-				DDC11A241E97A4B8001F22D2 /* Answers.h in Headers */,
-				DDC11A261E97A4B8001F22D2 /* CLSLogging.h in Headers */,
-				DDC11A251E97A4B8001F22D2 /* CLSAttributes.h in Headers */,
-				DDC11A231E97A4B8001F22D2 /* ANSCompatibility.h in Headers */,
-				DDC11A1B1E97A3FC001F22D2 /* FABAttributes.h in Headers */,
+				DDC11AE91E97C66E001F22D2 /* Crashlytics.framework in Headers */,
+				DDC11AEA1E97C66E001F22D2 /* Fabric.framework in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
