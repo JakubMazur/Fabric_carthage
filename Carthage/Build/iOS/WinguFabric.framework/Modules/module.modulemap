@@ -1,0 +1,6 @@
+framework module WinguFabric {
+  umbrella header "WinguFabric.h"
+
+  export *
+  module * { export * }
+}
