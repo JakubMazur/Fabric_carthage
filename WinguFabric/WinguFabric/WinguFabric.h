@@ -19,6 +19,7 @@
 
 #import <Foundation/Foundation.h>
 #import "FABAttributes.h"
+#import "Crashlytics.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
