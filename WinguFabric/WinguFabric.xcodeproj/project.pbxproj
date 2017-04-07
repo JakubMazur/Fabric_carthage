@@ -12,6 +12,7 @@
 		DD4349451E9793FF008E9D8C /* WinguFabric.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4349441E9793FF008E9D8C /* WinguFabric.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDC11AE91E97C66E001F22D2 /* Crashlytics.framework in Headers */ = {isa = PBXBuildFile; fileRef = DD4349401E978EAE008E9D8C /* Crashlytics.framework */; };
 		DDC11AEA1E97C66E001F22D2 /* Fabric.framework in Headers */ = {isa = PBXBuildFile; fileRef = DD4349411E978EAE008E9D8C /* Fabric.framework */; };
+		DDC11AEC1E97C769001F22D2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC11AEB1E97C769001F22D2 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DD4349411E978EAE008E9D8C /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Frameworks/Fabric.framework; sourceTree = "<group>"; };
 		DD4349441E9793FF008E9D8C /* WinguFabric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinguFabric.h; path = WinguFabric/WinguFabric.h; sourceTree = SOURCE_ROOT; };
 		DD4349461E979410008E9D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WinguFabric/Info.plist; sourceTree = SOURCE_ROOT; };
+		DDC11AEB1E97C769001F22D2 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Test.swift; path = WinguFabric/Test.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				DD4349441E9793FF008E9D8C /* WinguFabric.h */,
+				DDC11AEB1E97C769001F22D2 /* Test.swift */,
 				DD4349461E979410008E9D8C /* Info.plist */,
 			);
 			name = WinguFabric;
@@ -121,6 +124,7 @@
 					DD43492F1E978B63008E9D8C = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 9232HDTN9M;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC11AEC1E97C769001F22D2 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +272,7 @@
 		DD4349391E978B63008E9D8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9232HDTN9M;
@@ -283,6 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.WinguFabric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -290,6 +297,7 @@
 		DD43493A1E978B63008E9D8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9232HDTN9M;

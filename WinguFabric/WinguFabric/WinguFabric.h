@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Fabric/Fabric.h>
 
 //! Project version number for InnerTest.
 FOUNDATION_EXPORT double WinguFabricVersionNumber;
